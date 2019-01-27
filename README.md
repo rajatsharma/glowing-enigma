@@ -18,6 +18,6 @@
 
 ## How to use
 
-- Install Autoreadme as Github App.
+- Install Autoreadme as [Github App](https://github.com/apps/autoreadme).
 - Choose `All repositories` while installing, so that it could work for future new repos.
-- _That's it._ Create a new repo to see for yourself.
+- _That's it._ Create a new repo and .
