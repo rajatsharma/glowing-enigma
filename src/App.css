@@ -1,32 +1,34 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Major Mono Display', monospace;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+#root {
+  width: 100vw;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
-.App-link {
-  color: #61dafb;
+.hero {
+  grid-area: hero;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.text2 {
+  grid-area: text2;
+}
+
+.template {
+  flex: 1;
+  grid-template-areas:
+    'hero hero hero .'
+    'hero hero hero .'
+    'text2 text2 text2 footer';
 }
