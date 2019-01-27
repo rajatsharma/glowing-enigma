@@ -20,4 +20,4 @@
 
 - Install Autoreadme as [Github App](https://github.com/apps/autoreadme).
 - Choose `All repositories` while installing, so that it could work for future new repos.
-- _That's it._ Create a new repo and .
+- _That's it._ Create a new repo and you'll get first commit with readme added.
